@@ -1,0 +1,5 @@
+##/bin/sh
+
+make O=./out CROSS_COMPILE=/home/user/Software/ti-sdk-am335x-evm-07.00.00.00/linux-devkit/sysroots/i686-arago-linux/usr/bin/arm-linux-gnueabihf- ARCH=arm -C ./ menuconfig
+make O=./out CROSS_COMPILE=/home/user/Software/ti-sdk-am335x-evm-07.00.00.00/linux-devkit/sysroots/i686-arago-linux/usr/bin/arm-linux-gnueabihf- ARCH=arm -C ./ uImage dtbs -j4
+
